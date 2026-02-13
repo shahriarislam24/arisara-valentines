@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>happy valentine's day, apsara!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="icon.ico">
+</head>
+<body>
+    <!-- SCREEN 1: Initial Transition Screen -->
+    <div id="transition-screen" class="screen active">
+        <div class="expanding-circle"></div>
+        <h1 class="greeting-text">I lovee youu apsaraaa!</h1>
+    </div>
+
+    <!-- SCREEN 2: Question Screen with Images -->
+    <div id="question-screen" class="screen blurred">
+        <div class="question-container">
+            <!-- Main question image: "Apsara will you be my valentine?" -->
+            <!-- REPLACE 'question-image.png' with your actual image path -->
+            <img 
+                src="wybmval.png"
+                alt="Will you be my Valentine?"
+                class="question-image"
+                id="question-img"
+            />
+            
+            <!-- YES and NO button images side by side -->
+            <div class="button-container">
+                <!-- YES button image -->
+                <!-- REPLACE 'yes-button.png' with your actual image path -->
+                <img 
+                    src="yes.png"
+                    alt="Yes"
+                    class="choice-img yes-img"
+                    id="yes-btn"
+                />
+                
+                <!-- NO button image -->
+                <!-- REPLACE 'no-button.png' with your actual image path -->
+                <img 
+                    src="no.png"
+                    alt="No"
+                    class="choice-img no-img"
+                    id="no-btn"
+                />
+            </div>
+        </div>
+    </div>
+
+    <!-- SCREEN 3: Yes Response Screen (Empty for now - you'll add content later) -->
+    <div id="yes-screen" class="screen">
+        <div class="content-container">
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
